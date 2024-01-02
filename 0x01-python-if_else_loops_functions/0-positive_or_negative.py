@@ -5,5 +5,5 @@ if number > 0:
     print("{:d} is positive".format(number))
 elif numer < 0:
     print("{:d} is negative".format(number))
-elif:
+else:
     print("{:d} is zero".format(number))
