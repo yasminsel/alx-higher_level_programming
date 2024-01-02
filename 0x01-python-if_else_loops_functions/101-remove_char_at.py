@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-for i in range(25, -1, -1):
-    c = i + ord('A')
-    if i % 2 == 1:
-        c += 32
-    print("{:c}".format(c), end="")
+def remove_char_at(str, n):
+    newstr = ""
+    for i, c in enumerate(str):
+        if i != n:
+            newstr += c
+    return newstr
